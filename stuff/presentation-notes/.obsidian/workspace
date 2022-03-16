@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "c18e785b40c943fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cb579c06d0ed4b5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b411a9fa8571126",
+    "type": "split",
+    "children": [
+      {
+        "id": "39bbd75d24a97e91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5316a96019cd9a4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5d925237795a3e29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 215
+  },
+  "right": {
+    "id": "ecd4868f78590168",
+    "type": "split",
+    "children": [
+      {
+        "id": "329c33b28308b9e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2560edf41edc00b5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8cb579c06d0ed4b5",
+  "lastOpenFiles": [
+    "README.md",
+    "rendimento-istruzione.md",
+    "problema-dei-venditori.md",
+    "removed.md",
+    "distribuzione-binomiale.md",
+    "conclusioni.md",
+    "formula-binomiale.md",
+    "visualizzando-il-grafico.md",
+    "src/combination.PNG",
+    "src/grafico.png"
+  ]
+}

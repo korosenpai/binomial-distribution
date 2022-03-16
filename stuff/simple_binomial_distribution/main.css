@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: calc(100vh - 40px);
+  background: rgba(255, 26, 104, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BinomialDistributionChartBox {
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px rgba(255, 26, 104, 1);
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliders {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.slider, .values {
+    display: flex;
+    flex-direction: row;
+}
+
+.slider p, .values p {
+  margin: 10px;
+  font-size: small;
+}
+
+.separator {
+  width: 80%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}

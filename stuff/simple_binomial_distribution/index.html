@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>graph</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+      <div class="BinomialDistributionChartBox">
+        <canvas id="BinomialDistributionChart"></canvas>
+
+        <div class="separator"></div>
+
+        <div class="sliders">
+          
+          <div class="slider">
+            <p>probabilità di successo</p>
+            <input oninput="changePValues(this)" type="range" id="pSlider" min="0" max="100">
+          </div>
+
+          <div class="slider">
+            <p>tentativi</p>
+            <input oninput="changeNValues(this)" type="range" id="nSlider" min="0" max="100">
+          </div>
+        </div>
+
+        <div class="values">
+          <p>valore di P: <span id="pValue"></span>%</p>
+          <p>valore di N: <span id="nValue"></span></p>
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
