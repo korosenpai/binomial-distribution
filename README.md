@@ -1,24 +1,12 @@
 # Presentazione probabilità applicata a temi di carattere sociale
 Sito web -> https://korosenpai.github.io/binomial-distribution/
-SIto Istat -> http://dati.istat.it/
 
-## indice
----
-* [introduzione](#problematica)
-* [[README#introduzione alla distribuzione binomiale |Introduzione alla distribuzione binomiale]]
-* [[README#aspetti matematici|Aspetti matematici]]
-* [[README#esito di un tiro di una moneta |esito tiro di  una moneta]]
-* [[README#Giocando con i parametri| Giocando con i parametri]]
-* [[README#Problema dei venditori |problema dei venditori]]
-* [[README#Da chi dovresti comprare |da chi dovresti comprare?]]
-* [[README#Studiare aiuta a trovare lavoro |studiare aiuta a trovare lavoro?]]
-* [[README#Interpretazione dati |interpretazione dei dati]]
+Sito Istat -> http://dati.istat.it/
 
 
 # Probabilità di una probabilità
 
 ## Introduzione
----
 Stai comprando un libro online, e vedi tre venditori differenti.
 Tutti offrono la stessa cosa a piu o meno lo stesso prezzo.
 
@@ -33,7 +21,6 @@ Ma quale è il metodo razionale per capire quale è l'affare piu sicuro?
 
 
 ## introduzione alla distribuzione binomiale
----
 Per poter rispondere a questa domanda in modo scientifico utilizzeremo la distribuzione binomiale.
 La distribuzione binomiale serve per calcolare la probabilità di avere x successi in n prove indipendenti.
 Per evento indipendente intendiamo che la probabilità che tale prova abbia successo o meno non venga influenzata dalla prova precedente e non abbia a sua volta influenza sulla prova successiva.
@@ -48,16 +35,15 @@ Nell'esempio di prima n sarebbe il numero di recensioni indipendenti (fatte da p
 
 
 ## aspetti matematici
----
 $k$ -> numero di successi
 $n$ -> numero di tentativi
 $p$ -> probabilità di successo
 $P$ -> probabilità che un caso $k$ si verifichi
 
-![binomial formula](./src/formulas/given_k.png)
+![binomial formula](http://readme_src/formulas/given_k.png)
 
 dove:
-![binomial formula](./src/combination.png)
+![binomial formula](http://readme_src/combination.png)
 
 Notiamo:
 * $1 - p$ -> probabilità di fallimento
@@ -66,7 +52,7 @@ Notiamo:
 Questa formula però non ci da tutti i casi, ma bensì uno specifico.
 Se vogliamo invece tutti i possibili risultati:
 
-![binomial formula](./src/formulas/get_all_values.png)
+![binomial formula](http://readme_src/formulas/get_all_values.png)
 
 Inoltre nel grafico è importante evidenziare:
 media -> situata al centro della distribuzione -> $\mu =$ $np$
@@ -92,7 +78,6 @@ Notiamo che in due lanci abbiamo il $50\%$ di probabilità  di vedere testa una 
 
 
 ## Giocando con i parametri
----
 * Cambiando $p$ -> la distribuzione viene traslata a destra o a sinistra. possiamo quindi dire che la forma della distribuzione dipende da $p$.
 * Aumentando $n$ -> il grafico comincia a sembrare sempre di più una normale distribuzione. quando lavoriamo con delle distribuzioni traslate $n$ va aumentato significativamente, tranne se la distribuzione è simmetrica, in quanto non cambierà forma.
 * Quando $p = 0.5$ la distribuzione è simmetrica
@@ -101,7 +86,6 @@ Notiamo che in due lanci abbiamo il $50\%$ di probabilità  di vedere testa una 
 
 
 ## Problema dei venditori
----
 Riprendendo l'esempio di prima sui venditori, cerchiamo di capire ora da quale venditore ci converrebbe comprare.
 
 Possiamo vedere i venditori come distributori di esperienze, positive o negative, e ognuno avente una qualche probabilità implicita  
@@ -117,7 +101,6 @@ asse delle y: probabilità di ottenere quella percentuale di recensioni positive
 
 
 ## Da chi dovresti comprare?
----
 Il venditore 1, pur avendo il 90% di recensioni positive, ha talmente poche recensioni che non si può ritenere affidabile quel risultato  
 In effetti, guardando la distribuzione, la probabilità di avere 90% di soddisfazioni è quasi uguale a quella di avere ne 50%.
 
@@ -133,7 +116,6 @@ ci converrebbe quindi andare sul sicuro e comprare dal venditore 3.
 
 
 ## Studiare aiuta a trovare lavoro?
----
 Si. In teoria.  
 Ma è sempre meglio verificarlo con dei dati.
 
@@ -145,7 +127,6 @@ Tutti i dati sono stati presi dal [sito dell'istat](http://dati.istat.it/)
 
 
 ## Interpretazione dati
----
 Nei grafici:  
 asse delle x: percentuale di persone con quel titolo di studio occupate.  
 asse delle y: distribuzione delle probabilità.
