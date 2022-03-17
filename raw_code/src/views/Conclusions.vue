@@ -22,14 +22,14 @@
     </p>
 
     <p>
-      Detto questo, sono stanco e non ho più idee.
+      Tuttavia, sono stanco e non ho più idee.
     </p>
 
     <p class="end">
       Fine.
     </p>
 
-    <img src="@/assets/copyright.png" alt="">
+    <!-- <img src="@/assets/copyright.png" alt=""> -->
 
 
   </div>

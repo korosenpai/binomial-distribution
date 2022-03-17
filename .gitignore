@@ -1,5 +1,6 @@
 .DS_Store
 raw_code/node_modules
+raw_code/dist
 
 
 # local env files

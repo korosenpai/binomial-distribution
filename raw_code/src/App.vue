@@ -67,8 +67,10 @@ p {
 }
 
 #app {
-
-
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 
   font-family: arial-rounded-mt,Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
